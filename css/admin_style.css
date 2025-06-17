@@ -280,3 +280,11 @@ table input[type="text"], table input[type="number"] {
 .action-form { margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
 .action-form textarea { width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; min-height: 80px; margin-bottom: 10px; font-family: inherit; }
 .action-form .btn-update { padding: 10px 25px; font-size: 1rem; }
+
+/* Color Input Style Fix */
+.admin-form .form-group input[type="color"] {
+    padding: 5px; /* تقليل الحشو الداخلي */
+    height: 50px; /* تحديد ارتفاع ثابت */
+    min-width: 100px; /* تحديد عرض أدنى */
+    width: auto; /* السماح للعنصر بتحديد عرضه */
+}

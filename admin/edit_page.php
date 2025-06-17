@@ -1,5 +1,6 @@
 <?php
 require_once 'includes/auth_check.php';
+check_permission('manage_pages');
 check_permission('edit_page'); // التحقق من الصلاحية
 require_once '../config.php';
 $page_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
